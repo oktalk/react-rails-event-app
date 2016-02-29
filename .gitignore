@@ -17,9 +17,10 @@
 .byebug_history
 
 # Config
-# config/database.yml
-# config/secrets.yml
-# config/newrelic.yml
+config/cable.yml
+config/database.yml
+config/newrelic.yml
+config/secrets.yml
 
 # RubyMine
 .idea/

@@ -12,11 +12,11 @@ This is a boilerplate for new Rails applications that use MySQL for the database
 
 1. Fork this repository (or clone and push to a new repository)
 2. Clone the repository and change to the repository's directory
-3. Rename the app in `config/application.rb`
-4. Rename the gemset in `.ruby-gemset`
-5. Rename the database(s) in `config/database.yml`
-6. Rename the `app_name` in `config/newrelic.yml`
-7. Change the `secret_key_base` in `config/secrets.yml` using `rails secret`
+3. Rename the app in [config/application.rb](config/application.rb)
+4. Rename the gemset in [.ruby-gemset](.ruby-gemset)
+5. Rename the database(s) in [config/database.yml](config/database.yml)
+6. Rename the `app_name` in [config/newrelic.yml](config/newrelic.yml)
+7. Change the `secret_key_base` in [config/secrets.yml](config/secrets.yml) using `rails secret`
 8. Run `foreman start -f Procfile.dev` to start the server (and database)
 9. Run `rails db:create` to create the databases
 10. Go to `http://localhost:5000` in your browser to make sure it's working
