@@ -9,16 +9,16 @@ This boilerplate includes:
 * [New Relic](https://github.com/newrelic/rpm) for application monitoring
 * [Airbrake](https://github.com/airbrake/airbrake) for error tracking
 * [Sass](https://github.com/rails/sass-rails) for stylesheets
-  * [Autoprefixer Rails](https://github.com/ai/autoprefixer-rails) for CSS vendor prefixes
-  * [Bourbon](https://github.com/thoughtbot/bourbon) for Sass mixins
-  * [Normalize](https://github.com/markmcconachie/normalize-rails) for consistency
+    * [Autoprefixer Rails](https://github.com/ai/autoprefixer-rails) for CSS vendor prefixes
+    * [Bourbon](https://github.com/thoughtbot/bourbon) for Sass mixins
+    * [Normalize](https://github.com/markmcconachie/normalize-rails) for consistency
 * [Foreman](https://github.com/ddollar/foreman) for easy launching of the application
 * Basic testing setup:
-  * [Brakeman](https://github.com/presidentbeef/brakeman) for static security analysis
-  * [Bundler-Audit](https://github.com/rubysec/bundler-audit) for dependency security
-  * [Rubocop](https://github.com/bbatsov/rubocop) for following the [Ruby](https://github.com/bbatsov/ruby-style-guide) and [Rails](https://github.com/bbatsov/rails-style-guide) style guides.
-  * [Minitest](https://github.com/seattlerb/minitest) for testing (included with Rails)
-  * [Mocha](https://github.com/freerange/mocha) for easy mocking and stubbing
+    * [Brakeman](https://github.com/presidentbeef/brakeman) for static security analysis
+    * [Bundler-Audit](https://github.com/rubysec/bundler-audit) for dependency security
+    * [Rubocop](https://github.com/bbatsov/rubocop) for following the [Ruby](https://github.com/bbatsov/ruby-style-guide) and [Rails](https://github.com/bbatsov/rails-style-guide) style guides.
+    * [Minitest](https://github.com/seattlerb/minitest) for testing (included with Rails)
+    * [Mocha](https://github.com/freerange/mocha) for easy mocking and stubbing
 
 ### Pre-requirements
 
