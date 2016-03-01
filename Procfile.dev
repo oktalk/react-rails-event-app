@@ -1,2 +1,2 @@
 web: rails server
-db:  mysqld
+db:  postgres -D /usr/local/var/postgres

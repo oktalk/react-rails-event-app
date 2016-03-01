@@ -99,7 +99,6 @@ GEM
     mocha (1.1.0)
       metaclass (~> 0.0.1)
     multi_json (1.11.2)
-    mysql2 (0.4.3)
     newrelic_rpm (3.15.0.314)
     nio4r (1.2.1)
     nokogiri (1.6.7.2)
@@ -107,6 +106,7 @@ GEM
     normalize-rails (3.0.3)
     parser (2.3.0.6)
       ast (~> 2.2)
+    pg (0.18.4)
     powerpack (0.1.1)
     puma (3.0.2)
     rack (2.0.0.alpha)
@@ -216,9 +216,9 @@ DEPENDENCIES
   jquery-rails
   listen (~> 3.0.5)
   mocha
-  mysql2 (>= 0.3.18, < 0.5)
   newrelic_rpm
   normalize-rails
+  pg (~> 0.18)
   puma
   rails (>= 5.0.0.beta3, < 5.1)
   rubocop

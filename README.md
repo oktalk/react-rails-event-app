@@ -1,11 +1,11 @@
-## Rails boilerplate: MySQL
+## Rails boilerplate: Postgres
 
-This is a boilerplate for new Rails applications that use MySQL for the database.
+This is a boilerplate for new Rails applications that use Postgres for the database.
 
 This boilerplate includes:
 
 * Rails 5
-* MySQL configurations
+* Postgres configurations
 * [New Relic](https://github.com/newrelic/rpm) for application monitoring
 * [Airbrake](https://github.com/airbrake/airbrake) for error tracking
 * [Sass](https://github.com/rails/sass-rails) for stylesheets
@@ -25,7 +25,7 @@ This boilerplate includes:
 * [Git](https://git-scm.com)
 * [Homebrew](http://brew.sh)
 * [RVM](https://rvm.io)
-* `brew install mysql`
+* `brew install postgresql`
 
 ### Setup
 
@@ -36,11 +36,12 @@ This boilerplate includes:
 5. Rename the database(s) in [config/database.yml](config/database.yml)
 6. Rename the `app_name` in [config/newrelic.yml](config/newrelic.yml)
 7. Change the `secret_key_base` in [config/secrets.yml](config/secrets.yml) using `rails secret`
-8. Run `foreman start -f Procfile.dev` to start the server (and database)
-9. Run `rails db:create` to create the databases
-10. Go to `http://localhost:5000` in your browser to make sure it's working
-11. `Ctrl-C` to stop the server and database
-12. Commit and push any changes to your new repository
+8. Change the session store key in [config/initializers/session_store.rb](config/initializers/session_store.rb)
+9. Run `foreman start -f Procfile.dev` to start the server (and database)
+10. Run `rails db:create` to create the databases
+11. Go to `http://localhost:5000` in your browser to make sure it's working
+12. `Ctrl-C` to stop the server and database
+13. Commit and push any changes to your new repository
 
 ### Testing
 
