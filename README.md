@@ -1,5 +1,7 @@
 ## Rails boilerplate: Postgres
 
+[ ![Codeship Status for shiftinteractive/rails-postgres](https://codeship.com/projects/0d9ce3a0-c2d6-0133-e00d-7e8bd0c2c793/status?branch=master)](https://codeship.com/projects/137925)
+
 This is a boilerplate for new Rails applications that use Postgres for the database.
 
 This boilerplate includes:
