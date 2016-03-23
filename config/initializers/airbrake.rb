@@ -7,7 +7,7 @@
 #
 # Configuration details:
 # https://github.com/airbrake/airbrake-ruby#configuration
-if Rails.application.secrets.airbrake_project_id && Rails.application.secrets.airbrake_project_key
+if defined?(Airbrake)
   Airbrake.configure do |c|
     # You must set both project_id & project_key. To find your project_id and
     # project_key navigate to your project's General Settings and copy the values
@@ -43,6 +43,9 @@ if Rails.application.secrets.airbrake_project_id && Rails.application.secrets.ai
     # NOTE: This option *does not* work if you don't set the 'environment' option.
     # https://github.com/airbrake/airbrake-ruby#ignore_environments
     c.ignore_environments = %w(test development)
+
+    # https://github.com/airbrake/airbrake-ruby#blacklist_keys
+    c.blacklist_keys = [/password/i]
   end
 end
 
