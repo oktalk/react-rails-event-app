@@ -39,7 +39,7 @@ This boilerplate includes:
 6. Rename the `app_name` in [config/newrelic.yml](config/newrelic.yml)
 7. Change the `secret_key_base` in [config/secrets.yml](config/secrets.yml) using `rails secret`
 8. Change the session store key in [config/initializers/session_store.rb](config/initializers/session_store.rb)
-9. Run `foreman start -f Procfile.dev` to start the server (and database)
+9. Run `foreman start` to start the server (and database)
 10. Run `rails db:create` to create the databases
 11. Go to `http://localhost:5000` in your browser to make sure it's working
 12. `Ctrl-C` to stop the server and database
