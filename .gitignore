@@ -24,3 +24,4 @@ config/secrets.yml
 
 # RubyMine
 .idea/
+node_modules/
