@@ -1,6 +1,19 @@
 # react-rails-event-app
 An exercise in using React with Ruby on Rails
 
+Our progress so far:
+
+  * [X] NMP installed
+  * [X] Browserify installed
+  * [X] React installed
+  * [X] Babelify installed
+  * [ ] Configure Browserify to compile common JS
+ 
+Resources:
+  * [Setting up React, Rails & NPM](http://ttrmw.co.uk/code/rails_and_react_with_npm_modules.html)
+  * [Using Bebelify](https://github.com/babel/babelify)
+  * [Why we should stop using Bower](https://gofore.com/stop-using-bower/)
+
 ## Rails boilerplate: Postgres
 
 [ ![Codeship Status for shiftinteractive/rails-postgres](https://codeship.com/projects/0d9ce3a0-c2d6-0133-e00d-7e8bd0c2c793/status?branch=master)](https://codeship.com/projects/137925)
