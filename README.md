@@ -1,3 +1,6 @@
+# react-rails-event-app
+An exercise in using React with Ruby on Rails
+
 ## Rails boilerplate: Postgres
 
 [ ![Codeship Status for shiftinteractive/rails-postgres](https://codeship.com/projects/0d9ce3a0-c2d6-0133-e00d-7e8bd0c2c793/status?branch=master)](https://codeship.com/projects/137925)
@@ -61,4 +64,3 @@ TODO
 4. Push your branch
 5. Open a pull request to `master` with a description of what you did and why
 6. Please squash your commits so there is only a single commit per pull request
-
